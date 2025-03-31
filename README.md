@@ -1,5 +1,5 @@
 
-# 🚀 Vyom Dubey's Portfolio
+# 🚀 Prashant Thakur's Portfolio
 
 Welcome to my personal portfolio! This repository contains the source code for my portfolio website, where I showcase my projects, skills, and experiences.
 
@@ -21,7 +21,7 @@ Check out my portfolio: [Live Website](https://vmoyd.github.io/portfolio-app/)
 
 ## 📂 Project Structure
 ```
-📦 my-portfolio
+📦 Prashant_Portfolio
 ├── 📁 public          # Static assets
 ├── 📁 src
 │   ├── 📁 components  # Reusable UI components
@@ -48,56 +48,13 @@ Check out my portfolio: [Live Website](https://vmoyd.github.io/portfolio-app/)
 ---
 
 ## 📬 Contact Me
-📧 Email: [vyomdubeykp@gmail.com](mailto:vyomdubeykp@gmail.com)  
-🔗 LinkedIn: [linkedin.com/in/vyom-dubey](https://www.linkedin.com/in/vyom-dubey/)  
- X: [x.com/vyom](https://x.com/dubey_vyom_)  
-💻 GitHub: [github.com/vmoyd](https://github.com/vmoyd)  
+📧 Email: [thakurprashantbpt@gmail.com](mailto:thakurprashantbpt@gmail.com)  
+🔗 LinkedIn: [linkedin.com/in/prashant-thakur-1a7039181](https://www.linkedin.com/in/prashant-thakur-1a7039181/)  
+ X: [x.com/PrashantTh_8521](https://x.com/PrashantTh_8521)  
+💻 GitHub: [github.com/Prashant-2025](https://github.com/Prashant-2025)  
 
 ---
-
-## ⚙️ Installation & Setup
-
-### **Using Node.js**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/vmoy/portfolio-app.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd portfolio-app
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
-5. Open `http://localhost:5173/portfolio-app/` in your browser.
-
-### **Using Docker**
-1. Build the Docker image:
-   ```bash
-   docker build -t portfolio-app .
-   ```
-2. Run the container (mapping port 8080 on host to port 80 in the container):
-   ```bash
-   docker run -d -p 8080:80 portfolio-app
-   ```
-3. Open `http://localhost:8080/` in your browser.
-
----
-
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙌 Contributing
-Contributions are welcome! If you find any bugs or have feature suggestions, feel free to open an issue or submit a pull request.
 
 Happy coding! 🚀
 
 ---
-# Prashant_Portfolio
