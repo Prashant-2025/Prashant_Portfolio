@@ -43,16 +43,16 @@ const timeline = [
 
 const About = () => {
   // For parallax effect on scroll
-  const [scrollY, setScrollY] = useState(0);
+  // const [scrollY, setScrollY] = useState(0);
   
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     setScrollY(window.scrollY);
+  //   };
     
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, []);
 
   return (
     <section 
@@ -209,7 +209,7 @@ const About = () => {
               {/* Content box - improved mobile positioning */}
               <div className={`relative ${
                 index % 2 === 0 ? 'md:mr-12 ml-8 md:ml-0' : 'md:ml-12 ml-8'
-              } w-4/5 md:w-5/12 mt-4 md:mt-0`}>
+              } w-5/5 md:w-5/12 mt-4 md:mt-0`}>
                 <motion.div 
                   className="relative p-6 rounded-lg bg-black/60 backdrop-blur-md border border-amber-900/50 overflow-hidden"
                   whileHover={{ 

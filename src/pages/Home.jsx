@@ -58,7 +58,7 @@ const Home = () => {
     <section
       id="home"
       ref={sectionRef}
-      className="flex flex-col justify-center items-center text-center bg-black overflow-hidden pt-20"
+      className="flex flex-col justify-center items-center text-center bg-black overflow-hidden pt-40"
       style={{
         background:
           "radial-gradient(circle at center, #0f1523 0%, #000000 100%)",
@@ -77,7 +77,7 @@ const Home = () => {
         <motion.img
           src="/PT_Pic.png" // Replace with your image path
           alt="Prashant's Image"
-          className="w-40 h-fit md:h-[700px] md:w-1/2 object-cover shadow-lg z-50"
+          className="w-60 h-fit md:h-[680px] md:w-1/2 object-cover shadow-lg z-50 md:-mt-1"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
@@ -85,8 +85,8 @@ const Home = () => {
 
         {/* Text Section on the Right */}
         <div
-          className="z-20 w-full flex justify-center md:justify-start md:w-1/2 text-center md:text-left md:ml-8"
-          style={{ marginTop: "30vh", marginBottom: "30vh" }}
+          className="z-20 w-full flex justify-center md:justify-start md:w-1/2 text-center md:text-left md:ml-8 mt-16 mb-20 md:mb-32"
+          
         >
           <motion.h1
             className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500 pb-2"
@@ -94,13 +94,14 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Hey, I&apos;m Prashant! <br />
+            Hey, I&apos;m Prashant Thakur! <br />
             <motion.span
+              className="text-4xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.5 }}
             >
-              Welcome to my corner <br /> of the internet!
+              Welcome to my digital space— <br /> where creativity meets code!
             </motion.span>
           </motion.h1>
         </div>
