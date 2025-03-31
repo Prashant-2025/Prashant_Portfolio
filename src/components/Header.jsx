@@ -47,7 +47,7 @@ const Header = () => {
       <div className="relative">
         <a href="/">
           <img 
-            src="/PTLogo.jpeg" 
+            src="/PTLOGO.png" 
             alt="Logo header" 
             className="w-20 h-16 cursor-pointer hover:scale-105 transition-transform duration-300"
           />
