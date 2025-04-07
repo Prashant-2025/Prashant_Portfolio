@@ -94,7 +94,7 @@ const Header = () => {
           {links.map((link) => (
             <a
               key={link}
-              href={link.toLowerCase() === "home" ? "/" : `/${link.toLowerCase()}`}
+              href={link.toLowerCase() === "home" ? "/" : `#${link.toLowerCase()}`}
               onClick={() => setIsMenuOpen(false)}
               className="block px-4 py-3 text-gray-300 hover:bg-amber-900/30 hover:text-amber-400 transition-colors"
             >
